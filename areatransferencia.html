@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Área de transferência</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <div class="d-flex justify-content-between bg-primary text-white p-3">
+        <div class="m-3">
+          <h1 class="text-center font-weight-lighter">Área de transferência</h1>
+        </div>
+        <div class="m-3 pt-1">
+            <!-- <img width="80" height="80" src="/static/user/assets/images/logo_universo.png" class="img-fluid" alt="Responsive image"> -->
+            <i class="bi bi-clipboard-check" style="font-size: 34px;"></i>
+        </div>
+    </div>
+    <div class="jumbotron h-100">
+        <div class="input-group pb-3">
+            <input id="1" type="text" class="form-control" placeholder="Digite aqui para copiar depois :D">
+            <div class="input-group-append">
+              <button type="button" onclick="copiar(document.getElementById('1'), this.children[0])" class="btn btn-primary"><i class="bi bi-clipboard"></i></button>
+            </div>
+        </div>
+        <div class="input-group pb-3">
+            <input id="2" type="text" class="form-control" placeholder="Digite aqui para copiar depois :D">
+            <div class="input-group-append">
+              <button type="button" onclick="copiar(document.getElementById('2'), this.children[0])" class="btn btn-primary"><i class="bi bi-clipboard"></i></button>
+            </div>
+        </div>
+        <div class="input-group pb-3">
+            <input id="3" type="text" class="form-control" placeholder="Digite aqui para copiar depois :D">
+            <div class="input-group-append">
+              <button type="button" onclick="copiar(document.getElementById('3'), this.children[0])" class="btn btn-primary"><i class="bi bi-clipboard"></i></button>
+            </div>
+        </div>
+        <div class="input-group pb-3">
+            <input id="4" type="text" class="form-control" placeholder="Digite aqui para copiar depois :D">
+            <div class="input-group-append">
+              <button type="button" onclick="copiar(document.getElementById('4'), this.children[0])" class="btn btn-primary"><i class="bi bi-clipboard"></i></button>
+            </div>
+        </div>
+        <div class="input-group pb-3">
+            <input id="5" type="text" class="form-control" placeholder="Digite aqui para copiar depois :D">
+            <div class="input-group-append">
+              <button type="button" onclick="copiar(document.getElementById('5'), this.children[0])" class="btn btn-primary"><i class="bi bi-clipboard"></i></button>
+            </div>
+        </div>
+        <div class="input-group pb-3">
+            <textarea id="6" type="text" class="form-control" placeholder="Digite aqui para copiar depois :D"></textarea>
+            <div class="input-group-append">
+              <button type="button" onclick="copiar(document.getElementById('6'), this.children[0])" class="btn btn-primary"><i class="bi bi-clipboard"></i></button>
+            </div>
+        </div>
+        <div class="input-group pb-3">
+            <textarea id="7" type="text" class="form-control" placeholder="Digite aqui para copiar depois :D"></textarea>
+            <div class="input-group-append">
+              <button type="button" onclick="copiar(document.getElementById('7'), this.children[0])" class="btn btn-primary"><i class="bi bi-clipboard"></i></button>
+            </div>
+        </div>
+        <div class="input-group pb-3">
+            <textarea id="8" type="text" class="form-control" placeholder="Digite aqui para copiar depois :D"></textarea>
+            <div class="input-group-append">
+              <button type="button" onclick="copiar(document.getElementById('8'), this.children[0])" class="btn btn-primary"><i class="bi bi-clipboard"></i></button>
+            </div>
+        </div>
+        <div class="input-group pb-3">
+            <textarea id="9" type="text" class="form-control" placeholder="Digite aqui para copiar depois :D"></textarea>
+            <div class="input-group-append">
+              <button type="button" onclick="copiar(document.getElementById('9'), this.children[0])" class="btn btn-primary"><i class="bi bi-clipboard"></i></button>
+            </div>
+        </div>
+        <div class="input-group pb-3">
+            <textarea id="10" type="text" class="form-control" placeholder="Digite aqui para copiar depois :D"></textarea>
+            <div class="input-group-append">
+              <button type="button" onclick="copiar(document.getElementById('10'), this.children[0])" class="btn btn-primary"><i class="bi bi-clipboard"></i></button>
+            </div>
+        </div>
+        <!-- <h1 class="display-4"><b class="text-primary">Dicas e dúvidas frequentes.</b></h1>
+        <p class="lead">O novo módulo é semelhante a uma plataforma de publicação de blog. Foi criado com o objetivo de auxiliar todos e compartilhar a melhor forma de utilização de todos os recursos e funcionalidades do Universo Adami.</p>
+        <hr class="my-4">
+        <p>Acesse e desfrute regularmente de dicas para facilitar a navegação no espaço do Universo Adami.</p>
+        <p class="lead">
+          <a class="btn btn-primary btn-lg" href="/dicas/inicio" title="Dicas e dúvidas frequentes" role="button">Dicas e dúvidas frequentes</a>
+        </p> -->
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+<script>
+    copiar = (elem, icone) => {
+        alterarIcone(icone, 'bi-clipboard', 'bi-clipboard-check')
+        // crie um elemento de texto oculto, se ainda não existir
+        var targetId = "_hiddenCopyText_";
+        var isInput = elem.tagName === "INPUT" || elem.tagName === "TEXTAREA";
+        var origSelectionStart, origSelectionEnd;
+        if (isInput) {
+            // pode apenas usar o elemento fonte original para a seleção e cópia
+            target = elem;
+            origSelectionStart = elem.selectionStart;
+            origSelectionEnd = elem.selectionEnd;
+        } else {
+            // deve usar um elemento de formulário temporário para a seleção e cópia
+            target = document.getElementById(targetId);
+            if (!target) {
+                var target = document.createElement("textarea");
+                target.style.position = "absolute";
+                target.style.left = "-9999px";
+                target.style.top = "0";
+                target.id = targetId;
+                document.body.appendChild(target);
+            }
+            target.textContent = elem.textContent;
+        }
+        // select the content
+        var currentFocus = document.activeElement;
+        target.focus();
+        target.setSelectionRange(0, target.value.length);
+        
+        // copie a seleção
+        var succeed;
+        try {
+            succeed = document.execCommand("copy");
+        } catch(e) {
+            succeed = false;
+        }
+        // restaurar o foco original
+        if (currentFocus && typeof currentFocus.focus === "function") {
+            currentFocus.focus();
+        }
+        
+        if (isInput) {
+            // restaurar a seleção anterior
+            elem.setSelectionRange(origSelectionStart, origSelectionEnd);
+        } else {
+            // limpar conteúdo temporário
+            target.textContent = "";
+        }
+        return succeed;
+    }
+
+    alterarIcone = (icone, remover, adicionar) => {
+        icone.classList.remove(remover)
+        icone.classList.add(adicionar)
+
+        setTimeout(() => {
+            icone.classList.remove(adicionar)
+            icone.classList.add(remover)
+        }, 1000)
+    }
+</script>
+
+</html>
